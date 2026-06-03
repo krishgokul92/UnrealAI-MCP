@@ -1,0 +1,12 @@
+Begin Object Class=/Script/BlueprintGraph.K2Node_DynamicCast Name="K2Node_DynamicCast_Cast"
+   TargetType=/Script/Engine.Actor
+   NodePosX=300
+   NodePosY=0
+   NodeGuid=17000000000000000000000000000001
+   CustomProperties Pin (PinId=27000000000000000000000000000001,PinName="execute",PinType.PinCategory="exec",PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=27000000000000000000000000000002,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=27000000000000000000000000000003,PinName="CastFailed",Direction="EGPD_Output",PinType.PinCategory="exec",PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=27000000000000000000000000000004,PinName="Object",PinType.PinCategory="object",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/CoreUObject.Object"',PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=27000000000000000000000000000005,PinName="AsActor",Direction="EGPD_Output",PinType.PinCategory="object",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/Engine.Actor"',PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=27000000000000000000000000000006,PinName="bSuccess",Direction="EGPD_Output",PinType.PinCategory="bool",bAdvancedView=True,)
+End Object

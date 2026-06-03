@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Logs / scratch
+*.log
+*.exit
+sessions/
+_tmp/
+_build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Unreal build artifacts (in case the plugin is copied into a project here)
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+*.pdb

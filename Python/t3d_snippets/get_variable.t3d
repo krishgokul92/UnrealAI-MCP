@@ -1,0 +1,8 @@
+Begin Object Class=/Script/BlueprintGraph.K2Node_VariableGet Name="K2Node_VariableGet_GetVar"
+   VariableReference=(MemberName="MyVariable",bSelfContext=True)
+   NodePosX=300
+   NodePosY=0
+   NodeGuid=15000000000000000000000000000001
+   CustomProperties Pin (PinId=25000000000000000000000000000001,PinName="MyVariable",Direction="EGPD_Output",PinType.PinCategory="bool",PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=25000000000000000000000000000002,PinName="self",PinType.PinCategory="object",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/Engine.Actor"',bHidden=True,)
+End Object

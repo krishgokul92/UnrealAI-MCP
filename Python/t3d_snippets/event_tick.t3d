@@ -1,0 +1,10 @@
+Begin Object Class=/Script/BlueprintGraph.K2Node_Event Name="K2Node_Event_Tick"
+   EventReference=(MemberParent=/Script/CoreUObject.Class'"/Script/Engine.Actor"',MemberName="ReceiveTick")
+   bOverrideFunction=True
+   NodePosX=0
+   NodePosY=0
+   NodeGuid=11000000000000000000000000000001
+   CustomProperties Pin (PinId=21000000000000000000000000000001,PinName="OutputDelegate",Direction="EGPD_Output",PinType.PinCategory="delegate",PinType.PinSubCategoryMemberReference=(MemberParent=/Script/CoreUObject.Class'"/Script/Engine.Actor"',MemberName="ReceiveTick"),PersistentGuid=00000000000000000000000000000000,bHidden=True,)
+   CustomProperties Pin (PinId=21000000000000000000000000000002,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=21000000000000000000000000000003,PinName="DeltaSeconds",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PersistentGuid=00000000000000000000000000000000,)
+End Object

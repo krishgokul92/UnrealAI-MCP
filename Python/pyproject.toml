@@ -1,0 +1,37 @@
+[project]
+name = "unreal-ai-mcp"
+version = "1.0.0"
+description = "UnrealAI MCP server: an MCP bridge to a running Unreal Engine 5.5+ editor via the UnrealAI plugin."
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+  "mcp[cli]>=1.4.1",
+  "fastmcp>=0.2.0",
+  "uvicorn",
+  "fastapi",
+  "pydantic>=2.6.1",
+  "requests",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = [
+  "unreal_ai_mcp",
+  "unreal_ai_agent",
+  "unreal_ai_tooling",
+  "ue_bridge",
+  "ue_tools",
+  "t3d_validator",
+  "t3d_snippet_loader",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

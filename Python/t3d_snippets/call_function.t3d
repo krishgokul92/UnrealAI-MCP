@@ -1,0 +1,11 @@
+Begin Object Class=/Script/BlueprintGraph.K2Node_CallFunction Name="K2Node_CallFunction_Generic"
+   FunctionReference=(MemberParent=/Script/CoreUObject.Class'"/Script/Engine.KismetSystemLibrary"',MemberName="GetGameTimeInSeconds")
+   NodePosX=300
+   NodePosY=0
+   NodeGuid=18000000000000000000000000000001
+   CustomProperties Pin (PinId=28000000000000000000000000000001,PinName="execute",PinType.PinCategory="exec",PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=28000000000000000000000000000002,PinName="then",Direction="EGPD_Output",PinType.PinCategory="exec",PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=28000000000000000000000000000003,PinName="self",PinType.PinCategory="object",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/Engine.KismetSystemLibrary"',bHidden=True,)
+   CustomProperties Pin (PinId=28000000000000000000000000000004,PinName="WorldContextObject",PinType.PinCategory="object",PinType.PinSubCategoryObject=/Script/CoreUObject.Class'"/Script/CoreUObject.Object"',bHidden=True,)
+   CustomProperties Pin (PinId=28000000000000000000000000000005,PinName="ReturnValue",Direction="EGPD_Output",PinType.PinCategory="real",PinType.PinSubCategory="float",PersistentGuid=00000000000000000000000000000000,)
+End Object

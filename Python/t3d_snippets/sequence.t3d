@@ -1,0 +1,8 @@
+Begin Object Class=/Script/BlueprintGraph.K2Node_ExecutionSequence Name="K2Node_ExecutionSequence_Sequence"
+   NodePosX=300
+   NodePosY=0
+   NodeGuid=14000000000000000000000000000001
+   CustomProperties Pin (PinId=24000000000000000000000000000001,PinName="execute",PinType.PinCategory="exec",PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=24000000000000000000000000000002,PinName="then_0",Direction="EGPD_Output",PinType.PinCategory="exec",PersistentGuid=00000000000000000000000000000000,)
+   CustomProperties Pin (PinId=24000000000000000000000000000003,PinName="then_1",Direction="EGPD_Output",PinType.PinCategory="exec",PersistentGuid=00000000000000000000000000000000,)
+End Object
