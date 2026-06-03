@@ -4,6 +4,14 @@ UnrealAI is an Unreal Engine 5.5+ editor plugin plus a Python MCP (Model Context
 server that lets any MCP-aware AI client inspect, build, and modify content inside a
 running Unreal Editor.
 
+## 🚀 Key Features
+
+- **✨ 202 MCP Tools** — Complete programmatic access to Unreal Editor (Blueprints, Materials, Landscapes, Widgets, Level Sequences, PCG, Niagara, Animations, and more)
+- **🤖 AI-First Design** — Works with Claude, GitHub Copilot, Cursor, Cline, or any MCP-aware client
+- **🎨 Blueprint Automation** — Generate complex Blueprint graphs through natural language
+- **⚡ Real-Time Editing** — Inspect and modify UE5 content live in the editor
+- **🔗 Multiple Frontends** — In-editor Slate panel, VS Code integration, or standalone HTTP agent
+
 The package contains three things:
 
 1. **`Plugin/UnrealAIPlugin/`** &mdash; the C++ editor plugin that opens a TCP bridge
@@ -125,6 +133,18 @@ standard MCP over stdio.
 
 ---
 
+## Common Workflows
+
+Looking for a specific capability? Start here:
+
+- **Create colored objects?** → [Colored Shapes Tutorial](Guides/colored-shapes-tutorial.md)
+- **Build Blueprint logic with AI?** → [Blueprint Graph Guide](Guides/blueprint-graph-guide.md)
+- **See what tools are available?** → [Tools Reference](Guides/tools-reference.md)
+- **Look for prompt examples?** → [Prompt Examples](Guides/prompt-examples.md)
+- **Need material editing, landscapes, or animations?** → [Tools Reference](Guides/tools-reference.md) (search by capability)
+
+---
+
 ## Optional: HTTP agent
 
 `Python/unreal_ai_agent.py` is a FastAPI service (default port `8765`) that wraps
@@ -155,10 +175,19 @@ The `wrappers` subset is environment-independent. Live tests (those without the
 
 ## Documentation
 
-- `Guides/tools-reference.md` &mdash; the full MCP tool surface
-- `Guides/blueprint-graph-guide.md` &mdash; authoring Blueprint graphs through MCP
-- `Guides/prompt-examples.md` &mdash; sample prompts for the agent
-- `ROADMAP.md` &mdash; planned work and known gaps
+### 📚 Getting Started & References
+
+| Guide | Description |
+|-------|-------------|
+| [**Tools Reference**](Guides/tools-reference.md) | Complete reference of all **202 MCP tools** organized by workflow (Blueprints, Materials, Landscapes, Widgets, Level Sequences, PCG, Niagara, etc.). Start here to understand what's available. |
+| [**Blueprint Graph Guide**](Guides/blueprint-graph-guide.md) | Learn how to programmatically create and manipulate Blueprint graphs using MCP tools. Build complex Blueprint logic through natural language without opening the editor. |
+| [**Colored Shapes Tutorial**](Guides/colored-shapes-tutorial.md) | 🎨 Step-by-step tutorial for creating colored geometric shapes in UE5. Perfect for learning the workflow: create Blueprint → add components → assign materials → spawn actors. |
+| [**Prompt Examples**](Guides/prompt-examples.md) | 💡 Real-world examples showing how natural language requests translate into MCP tool calls. Includes architectural projects (houses, castles), game level design (mazes, physics playgrounds), and more. |
+
+### 📖 Additional Documentation
+
+- [**claude-ue-skill/README.md**](claude-ue-skill/README.md) — Claude Code skill installation and features
+- [**claude-ue-skill/SKILL.md**](claude-ue-skill/SKILL.md) — Detailed skill reference for the Claude integration
 
 ---
 
