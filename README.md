@@ -28,7 +28,6 @@ The package contains three things:
 ```
 UnrealAI-Release/
 ├── README.md                     <- you are here
-├── ROADMAP.md
 ├── Plugin/
 │   └── UnrealAIPlugin/           <- drop into <YourProject>/Plugins/
 │       ├── UnrealAI.uplugin
